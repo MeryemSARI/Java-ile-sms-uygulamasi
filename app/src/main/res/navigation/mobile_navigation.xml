@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_mgonder">
+
+
+    <fragment
+        android:id="@+id/nav_mgonder"
+        android:name="com.example.sms.ui.home.HomeFragment"
+        android:label="@string/menu_mgonder"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_grubauyekle"
+        android:name="com.example.sms.ui.gallery.GalleryFragment"
+        android:label="@string/menu_grubauyekle"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_molustur"
+        android:name="com.example.sms.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_molustur"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_grupolustur"
+        android:name="com.example.sms.nav_grupolustur"
+        android:label="@string/menu_grupolustur"
+        tools:layout="@layout/fragment_nav_grupolustur" />
+    <fragment
+        android:id="@+id/nav_cikis"
+        android:name="com.example.sms.nav_cikis"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_nav_cikis" />
+</navigation>

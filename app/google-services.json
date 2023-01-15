@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "52798953104",
+    "project_id": "msms-bf1ed",
+    "storage_bucket": "msms-bf1ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52798953104:android:ac2156b004f84f90cdaa15",
+        "android_client_info": {
+          "package_name": "com.example.sms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52798953104-rsa96rc3qngtpjisd53gi29u1fcd323a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMBFMF-kPotA7ukJOG87DUYiDoeAz1crY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52798953104-rsa96rc3qngtpjisd53gi29u1fcd323a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
